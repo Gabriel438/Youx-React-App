@@ -1,0 +1,68 @@
+{
+  "name": "youx-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^1.4.3",
+    "@heroicons/react": "^1.0.5",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.25.0",
+    "base-64": "^1.0.0",
+    "bootstrap": "^4.6.1",
+    "bootstrap-icons": "^1.7.2",
+    "d3-fetch": "^3.0.1",
+    "d3-geo": "^3.0.1",
+    "d3-scale": "^4.0.2",
+    "express": "^4.17.2",
+    "framer-motion": "^6.2.3",
+    "google-maps-react": "^2.0.6",
+    "http-proxy-middleware": "^2.0.2",
+    "leaflet": "^1.7.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.25.2",
+    "react-leaflet": "^3.2.5",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "react-simple-maps": "^2.3.0",
+    "sweetalert2": "^11.3.10",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "dev": "webpack serve",
+    "start": "node server.js",
+    "build": "webpack --mode production"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.18"
+  },
+  "proxy": "http://localhost:3000",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
